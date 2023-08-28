@@ -5,5 +5,8 @@
 }
 
 .Box {
+    background-color: #0000003a;
     width: 200px;
+    padding: 20px;
+    border-radius: 20px;
 }
