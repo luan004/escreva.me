@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+    .Box {
+        width: 100%;
+    }
+}
+
+.Box {
+    width: 200px;
+}
