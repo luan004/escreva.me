@@ -11,6 +11,7 @@
     box-shadow: 0px 0px 10px 0px #0000007c;
     box-sizing: border-box;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .Button:hover {
