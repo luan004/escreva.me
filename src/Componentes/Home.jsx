@@ -11,7 +11,9 @@ export default function Home() {
     <Box
       children={
         <>
-            <Button label='Iniciar' onClick={
+          <Button label='Iniciar'
+            type='Red'
+            onClick={
                 () => {
                     const root = ReactDOM.createRoot(document.getElementById('appHeader'));
                     root.render(
@@ -20,18 +22,26 @@ export default function Home() {
                         </React.StrictMode>
                     );
                 }
-            }/>
-          <Button label="Tutorial" />
-          <Button label='Sobre' onClick={
-              () => {
-                  const root = ReactDOM.createRoot(document.getElementById('appHeader'));
-                  root.render(
-                      <React.StrictMode>
-                          <Sobre />
-                      </React.StrictMode>
-                  );
-              }
-          } />
+            }
+          />
+          <Button label="Tutorial"
+            type='Outlined'
+            color='Red'
+          />
+          <Button label='Sobre'
+            type='Outlined'
+            color='Red'
+            onClick={
+                () => {
+                    const root = ReactDOM.createRoot(document.getElementById('appHeader'));
+                    root.render(
+                        <React.StrictMode>
+                            <Sobre />
+                        </React.StrictMode>
+                    );
+                }
+            } 
+          />
         </>
       }
     />
